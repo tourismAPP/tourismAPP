@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    font-size:12px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*头部*/
+
+header .left-box,header .right-box{
+    height:0.42rem;
+    width:auto;
+}
+header .left-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+    overflow: hidden;
+    background:url(../../images/jst/prent.jpg) no-repeat center center/100% 100%;
+    box-shadow:0 0.02rem 0.05rem #1F48C6;
+}
+header .cont{
+    width:2.2rem;
+}
+.right-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+    background:#fff url(../../images/jst/shaixuan_03.png) no-repeat center bottom/100%;
+}
+/*内容*/
+section{
+    padding:0 0.32rem;
+    position: relative;
+    margin-top:1.2rem;
+}
+.list{
+    position:relative;
+    margin-top:0.32rem;
+    padding:0.15rem 0.7rem;
+    width:100%;
+    box-shadow:0 0 0.1rem 0.05rem #ccc;
+    border-radius:0.2rem;
+    font-size:10px;
+}
+.list .img-top{
+    height:0.70rem;
+    width:0.70rem;
+    border-radius:50%;
+    border:1px solid #fff;
+    box-shadow:0 0 0.1rem 0.05rem #ccc;
+    position: absolute;
+    left:0;top:0;
+    background:url(../../images/jst/woman_03.png) no-repeat right top/120%;
+    transform:translate(-30%,-40%);
+}
+.list .name span{
+    font-weight:600;
+}
+.list .names{
+    height:0.2rem;
+    width:0.3rem;
+    margin-top:0.1rem;
+    transform:translateX(110%);
+}
+.list .names li{
+    height:2px;
+    width:2px;
+    border-radius:50%;
+    background:#3867FA;
+}
+.list .names li:nth-child(1)~li{
+
+    margin-left:0.06rem;
+}
+.time{
+    margin-top:0.1rem;
+    height:0.22rem;
+    width:100%;
+    font-size:10px;
+    line-height:0.22rem;
+    color:#999999;
+}
+.time .span{
+    display: block;
+    height:0.2rem;
+    width:0.2rem;
+    border:0.06rem solid #3867FA;
+    border-radius:50%;
+    margin-right:0.1rem;
+}
+.list .content{
+    margin-top:0.1rem;
+    color:#666666;
+}
+.img-box{
+    width:100%;
+    padding:0.15rem 0 0.2rem;
+    border-bottom:1px dashed  #1E1E1E;
+}
+.img-box img{
+    height:1.52rem;
+    box-shadow:0 0 0.05rem 0.06rem #E5ECFF;
+}
+.item-box{
+    height:0.5rem;
+    width:100%;
+}
+.item-box .item{
+    padding:0 0.05rem;
+    height:100%;
+}
+.item-box .item .one{
+    display: block;
+    height:100%;
+    width:50%;
+    font-size:12px;
+    color:#999999;
+    line-height:0.6rem;
+}
+.item-box .item .one span{
+    padding-left:0.1rem;
+}
+
+.item-box .item  .it{
+    width:0.5rem;
+    height:100%;
+    border-radius:50%;
+    background:url(../../images/jst/sixin_07.png) no-repeat center center/60%;
+    box-shadow:0 0.05rem 0.1rem #D6E0FC;
+    margin-right:0.1rem;
+}
+.item-box .item .its{
+    background:url(../../images/jst/pinlun_09.png) no-repeat center center/60%;
+}
+.edit{
+    height:0.72rem;
+    width:0.72rem;
+    position: absolute;
+    bottom:0;right:50%;
+    transform:translateY(50%);
+}

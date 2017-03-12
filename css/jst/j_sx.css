@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.after:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+header .left-box,header .right-box{
+    height:0.42rem;
+    width:0.42rem;
+}
+header .left-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+    overflow: hidden;
+    background:url(../../images/jst/prent.jpg) no-repeat center center/100% 100%;
+    box-shadow:0 0.02rem 0.05rem #1F48C6;
+}
+header .cont{
+    width:2rem;
+
+}
+.right-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+    background:#fff url(../../images/jst/over_11.png) no-repeat center center/80%;
+}
+
+
+
+
+
+
+section{
+    padding:0 0.9rem;
+}
+.xb{
+    padding-top:0.8rem;
+    height:3.75rem;
+}
+.xb .title{
+    font-size:14px;
+    width:100%;
+    text-align: center;
+}
+.xb .title span{
+    margin-right:0.1rem;
+    font-weight: 600;
+}
+.xb .img-box{
+    height:2rem;
+    width:4rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xb .img-box .img{
+    width:1.27rem;
+    font-size:12px;
+    text-align: center;
+}
+.xb .img-box .img img{
+    width:100%;
+    margin-bottom:0.15rem;
+}
+.data{
+    height:3.18rem;
+    padding-top:0.6rem;
+    border-top:1px solid #EBEBEB;
+}
+.data .title{
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight:600;
+}
+.data .img-box{
+    height:0.7rem;
+    width:1.7rem;
+    margin:0.6rem auto 0;
+    font-size:12px;
+}
+.data .img-box img{
+    height:100%;
+    vertical-align: middle;
+    margin-right:0.1rem;
+}
+
+.sub{
+    margin-top:1rem;
+    display: block;
+    height:0.9rem;
+    width:100%;
+    line-height:0.9rem;
+    background:#3867FA;
+    color:#fff;
+    text-align: center;
+    font-size:14px;
+}

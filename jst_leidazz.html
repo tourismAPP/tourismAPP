@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jst/base.css">
+    <link rel="stylesheet" href="css/jst/public.css">
+    <link rel="stylesheet" href="css/jst/j_leida.css">
+    <script src="js/jst/rem.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <div class="left-box">
+        <a href="jst_shaixuan.html" class="one" style="display: block"></a>
+    </div>
+    <div class="cont">发现</div>
+
+    <div class="right-box">
+    </div>
+</header>
+<div class="header-top"></div>
+<!--大雷达-->
+<div class="leida" style="background:url(images/jst/j_ld.jpg) no-repeat center center/cover">
+    <div class="daotu">
+        <a href="">
+            <div class="img" style="background:#3867FA url(images/jst/firend_03.png) no-repeat center center/70% 70%;
+">
+            </div>
+            <p>好友</p>
+        </a>
+        <a href="jst_yueban.html">
+            <div class="img" style="background:#3867FA url(images/jst/friends_03.png) no-repeat center center/70% 70%;
+">
+            </div>
+            <p>约伴</p>
+        </a>
+        <a href="">
+            <div class="img" style="background:#3867FA url(images/jst/youji_03.png) no-repeat center center/70% 70%;
+">
+            </div>
+            <p>游记</p>
+        </a>
+    </div>
+
+    <div class="bottom">
+        <div class="box">
+            <a href="" class="top">
+                <div class="span left" style="background:#3867FA url(images/jst/friends_03.png) no-repeat center center/70% 70%;"></div>
+                <div class="left text">发现周边好友</div>
+            </a>
+            <a href="" class="top top2">
+                <div class="span left" style="background:#3867FA url(images/jst/note_07.png) no-repeat center center/70% 70%;"></div>
+                <div class="left text">发现周边游记</div>
+            </a>
+
+            <div class="shu"></div>
+        </div>
+    </div>
+</div>
+<div class="item" id="nes"></div>
+
+<div class="zz">
+    <div class="look">
+        <div class="zd">
+            <div class="bx">X</div>
+        </div>
+        <div class="img"></div>
+        <p>您的好友ELEGY不在线！</p>
+    </div>
+</div>
+</body>
+<script src="js/jst/touch.min.js"></script>
+<script>
+    var item=document.querySelector("#nes");
+    var bx=document.querySelector(".bx");
+    var zz=document.querySelector(".zz");
+    touch.on(item,'touchstart',function () {
+        zz.style.display='block';
+    });
+    touch.on(zz,'touchstart',function () {
+        zz.style.display='none';
+    });
+</script>
+</html>

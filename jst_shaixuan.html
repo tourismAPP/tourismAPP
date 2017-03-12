@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jst/base.css">
+    <link rel="stylesheet" href="css/jst/public.css">
+    <link rel="stylesheet" href="css/jst/j_sx.css">
+    <script src="js/jst/rem.js"></script>
+</head>
+<body>
+<header>
+    <div class="left-box">
+    </div>
+    <div class="cont">筛选</div>
+
+    <div class="right-box">
+        <a href="" class="one" style="display: block"></a>
+    </div>
+</header>
+<div class="header-st"></div>
+<section>
+    <div class="xb">
+        <div class="title"><span>性别</span> [忽略]</div>
+        <div class="img-box">
+            <div class="img">
+                <img src="images/jst/man1_03.png" alt="">
+                <p>男</p>
+            </div>
+            <div class="img">
+                <img src="images/jst/woman1_03.png" alt="">
+                <p>女</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="data">
+        <div class="title">行程日期</div>
+        <div class="img-box">
+            <img src="images/jst/limit_03.png" alt="">
+            不限
+        </div>
+    </div>
+    <div class="data">
+        <div class="title">出发地</div>
+        <div class="img-box">
+            <img src="images/jst/limit2_03.png" alt="">
+            不限
+        </div>
+    </div>
+    <div class="sub">确定</div>
+</section>
+</body>
+<script src="js/jst/touch.min.js"></script>
+<script>
+   var sub=document.querySelector(".sub");
+    touch.on(sub,'touchstart',function () {
+        sub.style.background="#333";
+    });
+    touch.on(sub,'touchend',function () {
+        location.href='jst_leidazz.html';
+    })
+</script>
+</html>
