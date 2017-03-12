@@ -1,0 +1,321 @@
+
+*{
+	font-family: "苹方";
+	box-sizing:border-box;
+
+}
+body,html{
+padding: 40px 0;
+}
+header{
+	width: 100%;
+	height: .88rem;
+	background: #3867FA;
+	position: fixed;
+	top:0;
+	z-index: 99999;
+}
+.nk{
+  width: 7.06rem;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.zbox a{
+   display: block;
+   width: .44rem;
+   height: .44rem;
+   margin-top: .22rem;
+   background: url(../../images/gj/out.png )no-repeat center center/100%;
+   z-index: 999999;
+}
+.zbox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:left; 
+}
+/*.zbox a img{
+	width: .44rem;
+}*/
+.ybox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:right;
+	margin-right: .1rem; 
+}
+.ybox a{
+	 display: block;
+	 margin-top: .22rem;
+   width: .44rem;
+   height: .44rem;
+   background: url(../../images/gj/fenxiang.png)no-repeat center center/100%;
+   z-index: 999999;
+}
+/*.ybox a img{
+	width: .44rem;
+}*/
+.mbox{
+	height: 100%;
+	width:auto;
+	background: url(../../images/gj/youji1.png )no-repeat center center;
+	position: absolute;
+	background-size: 30%;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom:0;
+}
+.ubox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:right;
+	margin-right: .1rem; 
+}
+.ubox a{
+	 display: block;
+	 margin-top: .22rem;
+   width: .44rem;
+   height: .44rem;
+   background: url(../../images/gj/liuyan.png)no-repeat center center/100%;
+   z-index: 999999;
+}
+.ibox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:right;
+	margin-right: .1rem; 
+}
+.ibox a{
+	 display: block;
+	 margin-top: .22rem;
+   width: .44rem;
+   height: .44rem;
+   background: url(../../images/gj/xin.png)no-repeat center center/100%;
+}
+.obox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:right;
+	margin-right: .1rem; 
+}
+.obox a{
+	 display: block;
+	 margin-top: .22rem;
+   width: .44rem;
+   height: .44rem;
+   background: url(../../images/gj/yun.png)no-repeat center center/100%;
+}
+.banner{
+
+	width: 100%;
+	height: 3.4rem;
+	background: url(../../images/gj/banner1.png )no-repeat center center/100%;
+	position: relative;
+	margin-bottom: .4rem;
+}
+.banner span{
+	position: absolute;
+	left: 50%;
+	bottom:-.5rem;
+	font-size: .12rem;
+	margin-left:-.15rem;
+}
+.bg{
+	
+	width: 4.3rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	background: url(../../images/gj/biaoge.png )no-repeat center center/100%;
+	position: relative;
+	margin-bottom: .5rem;
+}
+.rq{
+	position: absolute;
+	font-size: .12rem;
+	left:.4rem;
+	bottom: -.3rem;
+}
+.lc{
+	position: absolute;
+	font-size: .12rem;
+	left:1.8rem;
+	bottom: -.3rem;
+}
+.xh{
+	position: absolute;
+	font-size: .12rem;
+	left:3.9rem;
+	bottom: -.3rem;
+}
+.jieshao{
+	width:100%;
+	height: .8rem;
+    display: flex;
+    padding:0;
+   position: relative;
+
+}
+.jd{
+	width:100%;
+	height: 100%;
+	text-align:center;
+	background: url(../../images/gj/jingdian.png )no-repeat .45rem center/30%;
+
+}
+.zs{
+	
+	width:100%;
+	height: 100%;
+	text-align:center;
+	background: url(../../images/gj/zhusu.png )no-repeat .4rem center/30%;
+
+}
+.cy{
+	
+	width:100%;
+	height: 100%;
+	text-align:center;
+	background: url(../../images/gj/canying.png )no-repeat .15rem center/30%;
+
+}
+.gw{
+	
+	width:100%;
+	height: 100%;
+	text-align:center;
+	background: url(../../images/gj/gouwu.png )no-repeat .3rem center/30%;
+
+}
+.mm{
+position: absolute;
+left:1.07rem;
+top:0.22rem;
+font-size: .1rem;
+}
+.lm{
+position: absolute;
+left:2.88rem;
+top:0.22rem;
+font-size: .1rem;
+}
+.km{
+position: absolute;
+left:4.61rem;
+top:0.22rem;
+font-size: .1rem;
+}
+.cm{
+position: absolute;
+left:6.5rem;
+top:0.22rem;
+font-size:.1rem;
+}
+.gj{
+	width:100%;
+	height: .4rem;
+    display: flex;
+    margin-top: .2rem;
+    padding-left: .2rem;
+}
+.qizi{
+	width: .4rem;
+	height: .4rem;
+	border-radius: 50%;
+	margin-left: .2rem;
+	background: url(../../images/gj/wukelan.png )no-repeat center center;
+   
+}
+.oqizi{
+	width: .4rem;
+	height: .4rem;
+	border-radius: 50%;
+	margin-left: .2rem;
+	background: url(../../images/gj/china.png )no-repeat center center;
+}
+.gjmz{
+	width:auto;
+	height: .4rem;
+	font-size: .12rem;
+}
+.wzk{
+	width:auto;
+	height: .4rem;
+	display: flex;
+	margin-top: .2rem;
+	margin-left: .4rem;
+}
+.xy{
+	width: .2rem;
+	height: .2rem;
+	border-radius: 50%;
+	background: red;
+	margin-top: .1rem;
+}
+.ckrc{
+	width: 100%;
+	height:1rem;
+	background: url(../../images/gj/ckrclx.png )no-repeat center center/50%;
+}
+.word{
+  height: .2rem;width:auto;
+  line-height: .4rem;
+  font-size: .12rem;margin-left: .2rem;
+}
+.tpk{
+	width: 6.8rem;
+	height: 3.2rem;
+	background:#ffffff; 
+    border-radius: .1rem;
+    margin: 0 auto;
+    background: url(../../images/gj/beijing.png )no-repeat center center/100%;
+    display: flex;
+    position: relative;
+    box-shadow:0px 0px 5px 3px #efefef;
+    overflow: hidden;
+}
+.dd{
+	border-radius: .2rem;
+	width:2.3rem;
+	height:2.3rem;
+	margin-left: .2rem;
+}
+.nn{
+	border-radius: .2rem;
+	width:2.3rem;
+	height:2.3rem;
+	margin-left: .2rem;
+}
+.ff{
+	border-radius: .2rem;
+	width:1.75rem;
+	height:2.3rem;
+	margin-left: .2rem;
+}
+.jcxx{
+	font-size: .12rem;
+	line-height: .12rem;
+	width: auto;
+	margin-left: .2rem;
+	position: absolute;
+	left: .2rem;
+	bottom:.35rem;
+}
+.ll{
+	position: absolute;
+	left:5.65rem;
+	bottom:.05rem;
+	font-size: .1rem;
+}
+.rr{
+	position: absolute;
+	left:6.45rem;
+	bottom:.05rem;
+	font-size: .1rem;
+}
+
+

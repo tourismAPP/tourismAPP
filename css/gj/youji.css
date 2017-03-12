@@ -1,0 +1,169 @@
+header{
+	width: 100%;
+	height: .88rem;
+	background: #3867FA;
+}
+.nk{
+  width: 7.06rem;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.zbox a{
+   display: block;
+   width: .44rem;
+   height: .44rem;
+   margin-top: .22rem;
+   background: url(../../images/gj/out.png )no-repeat center center/100%;
+}
+.zbox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:left; 
+}
+/*.zbox a img{
+	width: .44rem;
+}*/
+.ybox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:right; 
+}
+.ybox a{
+	 display: block;
+	 margin-top: .22rem;
+   width: .44rem;
+   height: .44rem;
+   background: url(../../images/gj/diandian1.png)no-repeat center center/100%;
+}
+/*.ybox a img{
+	width: .44rem;
+}*/
+.mbox{
+	height: 100%;
+	width:auto;
+	background: url(../../images/gj/youji1.png )no-repeat center center;
+	position: absolute;
+	background-size: 30%;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom:0;
+}
+.banner{
+	width: 100%;
+	height: 3.4rem;
+	background: url(../../images/gj/banner.png )no-repeat center center/100%;
+	position: relative;
+}
+.rs{
+	width: .6rem;
+	height: .3rem;
+	position: absolute;
+	left:2rem;
+	top:.8rem;
+	color:white;
+	font-size: .12rem;
+	/*background: red;*/
+}
+.fs{
+	width: .6rem;
+	height: .3rem;
+	position: absolute;
+	right:2rem;
+	top:.8rem;
+	color:white;
+	font-size: .12rem;
+}
+.mz{
+	width: .6rem;
+	height: .3rem;
+	position: absolute;
+	right:3.4rem;
+	bottom:1.3rem;
+	color:white;
+	font-size: .12rem;
+}
+.gz a{
+	display: block;
+	width: 1.65rem;
+	height: .45rem;
+	position: absolute;
+	left: 2rem;
+	bottom:.55rem;
+	background:url(../../images/gj/guanzhu1.png )no-repeat center center/100%; 
+}
+.touxiang{
+	width:1.04rem;
+	height: 1.04rem;
+	position: absolute;
+	left: 50%;
+	margin-left:-.53rem;
+	margin-top: .6rem;
+	border-radius: 50%;
+	background:url(../../images/gj/meinv.png )no-repeat center center/100%; 
+}
+.sx a{
+	display: block;
+	width: 1.65rem;
+	height: .45rem;
+	position: absolute;
+	right: 2rem;
+	bottom:.55rem;
+	background:url(../../images/gj/sixing2.png )no-repeat center center/100%; 
+}
+.gsj{
+	width: 100%;
+	height: .95rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	/*background-size: 50%;*/
+}
+.gsj img{
+     /*width: 50%;*/
+     height: 30%;
+}
+.xmk a{
+	display: block;
+	margin: 0 auto;
+	width: 6.88rem;
+	height: 3.1rem;
+	background:url(../../images/gj/youlanxiangmu.png )no-repeat center center/100%; 
+	font-size: .12rem;
+	color:white;
+	position: relative;
+	margin-bottom: .2rem;
+}
+.bt{
+position: absolute;
+font-size: .16rem;
+top:.35rem;
+left: .25rem;
+}
+.sj{
+position: absolute;
+font-size: .16rem;
+top:.75rem;
+left: .45rem;
+}
+.ml{
+position: absolute;
+font-size: .16rem;
+bottom:.3rem;
+left: .65rem;
+}
+.xa{
+	position: absolute;
+font-size: .16rem;
+bottom:.3rem;
+left: 1.6rem;
+}
+.ly{
+position: absolute;
+font-size: .16rem;
+bottom:.3rem;
+left:2.6rem;
+}

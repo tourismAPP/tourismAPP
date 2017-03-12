@@ -1,0 +1,274 @@
+body{
+	position: relative;
+	background: url(../../images/gj/sixing_02.gif)no-repeat;
+	background-size: 100%;
+}
+header{
+	width: 100%;
+	height: .88rem;
+	background: #3867FA;
+}
+.nk{
+  width: 7.06rem;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.zbox a{
+   display: block;
+   width: .44rem;
+   height: .44rem;
+   margin-top: .22rem;
+   background: url(../../images/gj/jingru.png )center center/100%;
+}
+.zbox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:left; 
+}
+/*.zbox a img{
+	width: .44rem;
+}*/
+.ybox{
+	width: .44rem;
+	height:100%;
+	/*background: red;*/
+	float:right; 
+}
+.ybox a{
+	 display: block;
+	 margin-top: .22rem;
+   width: .44rem;
+   height: .44rem;
+   background: url(../../images/gj/jia.png )center center/100%;
+}
+/*.ybox a img{
+	width: .44rem;
+}*/
+.mbox{
+	height: 100%;
+	width:auto;
+	background: url(../../images/gj/sixing.jpg )no-repeat center center;
+	position: absolute;
+	background-size: 30%;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom:0;
+}
+section{
+	width: 100%;
+	height:700px;
+	background: url(../../images/gj/sixing_02.gif)repeat-y;
+	background-size: 100%;
+	position: relative;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background-size: 100%; 
+	background:rgba(64,110,253,.8);
+    
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.xlhz{
+	width: 100%;
+	height: 1.8rem;
+	color: white; 
+	/*display: flex;*/
+	flex-direction: column;
+	/*justify-content: center;/
+	/*align-items:center;*/
+	font-size: .1rem;
+}
+.xlhz img{
+	/*width: 50%;*/
+	height: .44rem;
+	margin-top: .2rem;
+}
+.wenzi{
+	text-align: center;
+	line-height: .5rem;
+}
+.date{
+	text-align: center;
+	line-height: .7rem;
+	font-size: .14rem;
+}
+.ltk{
+	width: 7.06rem;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	margin-top: .2rem;
+	margin-bottom: .8rem;
+}
+.ltk img{
+	width: .9rem;
+	height:  .9rem;
+}
+.kk{
+	float: left;
+	margin-left: .2rem;
+	width: 4.6rem;
+	height: .8rem;
+	border-radius: 0 .4rem .4rem .4rem;
+	background: #ffffff;
+	font-size: .14rem;
+	color:black;
+	line-height: .8rem;
+	padding-left: .2rem;
+	position: relative;
+}
+.dtk{
+	display: flex;
+	position: absolute;
+	width: 1.5rem;
+	height: .5rem;
+	font-size: .12rem;
+	right:1.6rem;
+	top:3rem;
+	line-height: .5rem;
+	justify-content:center;
+	color:white;
+}
+.yuan{
+	background: white;
+	width: .2rem;
+	height: .2rem;
+	border-radius: 50%;
+	margin-top: .15rem;
+}
+.kkw{
+	float: right;
+	margin-left:1rem;
+	margin-right: .3rem;
+	width: 4.6rem;
+	height: .8rem;
+	border-radius: 0 .4rem .4rem .4rem;
+	background: #45d5e9;
+	font-size: .14rem;
+	color:white;
+	line-height: .8rem;
+	padding-left: .2rem;
+}
+.ltke{
+	width: 7.06rem;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:row-reverse;
+	margin-top: .2rem;
+	margin-bottom: .8rem;
+	position: relative;
+}
+.ee{
+	width: 4.3rem;
+	height: 2.4rem;
+	margin-right: .4rem;
+	position: relative;
+}
+.qq{
+	width: .9rem;
+	height: .9rem;
+
+}
+.ww{
+	width: .66rem;
+	height:  .66rem;
+	position: absolute;
+	top:.8rem;
+	left:3.4rem;
+	}
+.dtl{
+   display: flex;
+	position: absolute;
+	width: 1.5rem;
+	height: .5rem;
+	font-size: .12rem;
+	left:1.6rem;
+	top:2.55rem;
+	line-height: .5rem;
+	justify-content:center;
+	color:white;
+
+}
+.oo{
+	position: relative;
+	width: 4.6rem;
+	height: 1rem;
+	margin-left: .3rem;
+}
+.ltm{
+	width: 7.06rem;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	margin-top: .2rem;
+	margin-bottom: .8rem;
+	position: relative;
+}
+.dtc{
+	display: flex;
+	position: absolute;
+	width: 1.5rem;
+	height: .5rem;
+	font-size: .12rem;
+	right:1.6rem;
+	top:1.3rem;
+	line-height: .5rem;
+	justify-content:center;
+	color:white;
+}
+
+.ii{
+	width: .9rem;
+	height: .9rem;
+}
+.wk{
+	width: 100%;
+	height: 1rem;
+	background: #2B67FF;
+	display: flex;
+	position: fixed;
+	bottom:0;
+}
+.sb{
+	margin-left: .2rem;
+	display: block;
+	width: .6rem;
+	height: .6rem;
+	border-radius: 50%;margin-top: .2rem;
+	background: url(../../images/gj/yuyin.png)no-repeat center center;
+	background-size:cover;
+}
+.srk{
+	width: 5rem;
+	height: .6rem;
+	background: white;
+	border-radius: .2rem;
+	margin-top: .2rem;
+	margin-left: .2rem;
+}
+.eb{
+	margin-left: .2rem;
+	display: block;
+	width: .6rem;
+	height: .6rem;border-radius: 50%;margin-top: .2rem;
+	background: url(../../images/gj/xiaolian.png )no-repeat center center;
+	background-size:cover;
+}
+.tb{
+	margin-left: .1rem;
+	display: block;
+	width: .6rem;
+	height: .6rem;
+border-radius: 50%;margin-top: .2rem;
+	background: url(../../images/gj/gengduo.png )no-repeat center center;
+	background-size:cover;
+}
+
+
