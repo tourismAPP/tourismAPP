@@ -1,0 +1,254 @@
+html,body{
+    font-size: 16px;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    width:100%;
+    height:.88rem;
+    background: #3867FA;
+    overflow: hidden;
+}
+header .ret{
+    display: block;
+    float: left;
+    width:.42rem;
+    height:.42rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-left: .24rem;
+    margin-top: .22rem;
+    background: url("../../images/zhangfei/ret.png") center center/100%;
+    box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+    -webkit-box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+}
+header .ret img{
+    width:100%;
+    height:100%;
+}
+header .title{
+    width:2.9rem;
+    height:.42rem;
+    margin:0 auto;
+    margin-top: .23rem;
+    text-align: center;
+    line-height:.42rem;
+    font-size: 19px;
+    color:#fff;
+    position: relative;
+}
+.title .dian{
+    position: absolute;
+    width:.55rem;
+    height:.1rem;
+    top:.16rem;
+}
+.title .dian li{
+    margin-right: .12rem;
+    background: #fff;
+    float: left;
+}
+.title .ld{
+    left:0;
+}
+.title .ld li{
+  border-radius: 50%;
+}
+.title .ld li:nth-child(1){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .ld li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .ld li:nth-child(3){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+.title .rd{
+    right:-.12rem;
+}
+.title .rd li{
+    border-radius: 50%;
+}
+.title .rd li:nth-child(3){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .rd li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .rd li:nth-child(1){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+/*中间部分*/
+section{
+    width:100%;
+    height:auto;
+    margin-top: .4rem;
+}
+section .cnt{
+    position: relative;
+    box-shadow: 0 0 .3rem  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 .3rem  rgba(0,0,0,0.6);
+}
+section .cnt a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+section .cnt a>img{
+    width:100%;
+}
+section .cnt .name{
+    position: absolute;
+    width: .46rem;
+    height:.8rem;
+    top:50%;
+    margin-top: -.4rem;
+    margin-left: -.72rem;
+}
+section .cnt .name img{
+    width:100%;
+}section .cnt .name .mm{
+     width:.6rem;
+     height:.5rem;
+     font-size: 12px;
+     color: #3867FA;;
+     line-height:.5rem;
+ }
+section .cnt1{
+    width:6.08rem;
+    height:2.4rem;
+    margin-left:1.1rem;
+}
+section .cnt2{
+    width: 5.7rem;
+    height: 2rem;
+    margin-left: 1.47rem;
+}
+section .cnt3{
+    width: 5.13rem;
+    height: 1.71rem;
+    margin-left: 2.05rem;
+}
+section .cnt4{
+    width: 4.63rem;
+    height: 1.78rem;
+    margin-left: 2.55rem;
+}
+section .cnt5{
+    width: 3.97rem;
+    height: 1.61rem;
+    margin-left: 3.21rem;
+}
+section .cnt6{
+    width: 3.27rem;
+    height: 1.24rem;
+    margin-left: 3.91rem;
+}
+/*遮罩*/
+.zz{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.zz .bai{
+    width: 5.17rem;
+    height: 7.34rem;
+    border-radius: .16rem;
+    -webkit-border-radius: .16rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.58rem;
+    bottom: .5rem;
+}
+/*月球*/
+.zz .bai .lb{
+    width: 3.12rem;
+    height: 3,12rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0rem .09rem .08rem rgba(226,226,226,0.9);
+    -webkit-box-shadow: 0rem .09rem .08rem rgba(226,226,226,0.9);
+    margin:.9rem auto 0;
+}
+.zz .bai .lb img{
+    width: 100%;
+}
+.bai h3{
+    width: 100%;height: 1rem;
+    line-height: 1rem;
+    color: #2068FF;
+    text-align: center;
+    margin-top: .4rem;
+}
+/*相机*/
+.dob{
+    width: 100%;height: 1.3rem;
+}
+.dob .left{
+    float: left;
+    width: auto;height: 1rem;
+    margin-left: .85rem;
+}
+.dob .right {
+    float: right;
+    width: auto;height: 1rem;
+    margin-right: .85rem;
+}
+.dob .ddd a{
+    display: block;
+    width: 100%;height: 100%;
+}
+.dob .right a i{
+    display: block;
+    width:.5rem;height: .55rem; 
+    margin:0 auto;
+}
+.dob .left a i{
+    display: block;
+    width:.55rem;height: .55rem; 
+    margin:0 auto;
+}
+.dob .ddd a i img{
+    width:100%;
+    display: block;
+    margin:0 auto;
+}
+.dob .ddd a span{
+    display: block;
+    font-size: 12px;
+    margin-top: .15rem;
+    padding:0 .01rem;
+    color: #2068FF;
+}
+/*关闭按钮*/
+.close{
+    position: absolute;
+    width: .73rem;height: .73rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    bottom:-.36rem;
+    left: 50%;
+    margin-left:-.36rem;
+}
+.close a{
+    display: block;
+    width: 100%;height: 100%;
+}
+.close a img{
+    width: 100%;
+}
+

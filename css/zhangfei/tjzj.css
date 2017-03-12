@@ -1,0 +1,224 @@
+body{
+    font-size: 16px;
+    background: #F5F5F5;
+}
+*{
+    box-sizing:border-box;
+}
+header{
+    width:100%;
+    height:.88rem;
+    background: #3867FA;
+    overflow: hidden;
+}
+header .ret{
+    display: block;
+    float: left;
+    width:.42rem;
+    height:.42rem;
+    border-radius: 50%;
+    margin-left: .24rem;
+    margin-top: .22rem;
+    background: url("../../images/zhangfei/ret.png") center center/100%;
+    box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+}
+header .ret img{
+    width:100%;
+    height:100%;
+}
+header .title{
+    width:2.9rem;
+    height:.42rem;
+    margin:0 auto;
+    margin-top: .23rem;
+    text-align: center;
+    line-height:.42rem;
+    font-size: 19px;
+    color:#fff;
+    position: relative;
+}
+.title .dian{
+    position: absolute;
+    width:.55rem;
+    height:.1rem;
+    top:.16rem;
+}
+.title .dian li{
+    margin-right: .12rem;
+    background: #fff;
+    float: left;
+}
+.title .ld{
+    left:0;
+}
+.title .ld li{
+  border-radius: 50%;
+}
+.title .ld li:nth-child(1){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .ld li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .ld li:nth-child(3){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+.title .rd{
+    right:-.12rem;
+}
+.title .rd li{
+    border-radius: 50%;
+}
+.title .rd li:nth-child(3){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .rd li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .rd li:nth-child(1){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+header .sz{
+    position: absolute;
+    right:.24rem;
+    top: .22rem;
+    width:.42rem;
+    height:.42rem;
+    border-radius:50%;
+    background: url("../../images/zhangfei/tj01.png") center center/100%;
+    box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+}
+header .sz img{
+    width: 100%;
+}
+/*中间部分*/
+section{
+    width: 6.87rem;height:auto;
+    margin:0 auto;
+}
+.one{
+    width: 100%;height: 2.55rem;
+    border-radius: .08rem;
+    margin-top: .2rem;
+    background: #fff;
+    overflow: hidden;
+}
+.one .top{
+      display: block;
+      height: 2.13rem;
+      width: 100%;
+}
+.one .top .left{
+    width: 1.78rem;height:1.89rem;
+    float: left;
+}
+.one .top .left img{
+    width: 100%;
+}
+.one .top .right{
+    float: left;
+    width:4.69rem;
+    height: 1.89rem;
+    line-height:1.2;
+    padding:.24rem .2rem;
+    text-align: justify;
+    font-size: 11px;
+    color: #666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    overflow: hidden;
+}
+.one .bot{
+    width: 100%;height: .42rem;
+    background: #EFEFEF;
+    line-height:.42rem;
+}
+.one .bot .left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    position: relative;
+}
+.one .bot .right{
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+.one .bot .left a{
+    position: absolute;
+    right: .3rem;
+}
+.one .bot .right a{
+    position: absolute;
+    right: .3rem;
+}
+/*第二个白条*/
+.tow{
+    width: 100%;height: .76rem;
+    border-radius: .08rem;
+    background: #fff;
+    line-height: .76rem;
+    margin-top: .2rem;
+}
+.tow a:first-child{
+    float: left;
+    margin-left: .2rem;
+    color: #333;
+}
+.tow a:last-child{
+    float: right;
+    width: .37rem;height: .37rem;
+    margin-right: .2rem;
+}
+.tow a:last-child img{
+    width: 100%;
+    margin-top:.2rem;
+}
+.thre{
+    margin-top: .2rem;
+    width: 100%;
+    box-shadow: 0 0 .3rem rgba(0,0,0,0.7);
+}
+.thre img{
+    width: 100%;
+}
+.fou{
+    width: 100%;height:.5rem;
+    margin-top: .2rem;
+}
+.fou .le{
+    display: block;
+    width: 3rem;
+    float: left;
+    height: 100%;
+    line-height: .5rem;
+    padding-left: .67rem;
+    position: relative;
+}
+.fou .le img{
+    position: absolute;
+    left: 0;
+    width: .5rem;
+}
+.fou .ri {
+     display: block;
+     float: right;
+}
+.fou .ri img{
+    width: .5rem;
+}

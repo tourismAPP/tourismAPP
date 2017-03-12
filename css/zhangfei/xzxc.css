@@ -1,0 +1,169 @@
+body{
+    font-size: 16px;
+}
+header{
+    width:100%;
+    height:.88rem;
+    background: #3867FA;
+    overflow: hidden;
+}
+header .ret{
+    display: block;
+    float: left;
+    width:.42rem;
+    height:.42rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-left: .24rem;
+    margin-top: .22rem;
+    background: url("../../images/zhangfei/ret.png") center center/100%;
+    box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+    -webkit-box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+}
+header .ret img{
+    width:100%;
+    height:100%;
+}
+header .title{
+    width:2.9rem;
+    height:.42rem;
+    margin:0 auto;
+    margin-top: .23rem;
+    text-align: center;
+    line-height:.42rem;
+    font-size: 19px;
+    color:#fff;
+    position: relative;
+}
+.title .dian{
+    position: absolute;
+    width:.55rem;
+    height:.1rem;
+    top:.16rem;
+}
+.title .dian li{
+    margin-right: .12rem;
+    background: #fff;
+    float: left;
+}
+.title .ld{
+    left:0;
+}
+.title .ld li{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.title .ld li:nth-child(1){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .ld li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .ld li:nth-child(3){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+.title .rd{
+    right:-.12rem;
+}
+.title .rd li{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.title .rd li:nth-child(3){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .rd li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .rd li:nth-child(1){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+/*内容部分*/
+section ul{
+    width: 7.04rem;height: auto;
+    margin:0 auto;
+}
+section ul li{
+    width: 100%;height: 2.77rem;
+    margin-top:.2rem;
+     display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+section ul li div{
+    -webkit-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+}
+section ul li .left{
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    width: 2.67rem;
+    height: 2.77rem;
+}
+section ul li .left img{
+    width: 100%;
+}
+section ul li .mid{
+   -webkit-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+     -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;   
+}
+section ul li .rig{
+   -webkit-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    width: 1.42rem;height: .54rem;
+}
+section ul li .rig a{
+    display: block;
+    width:100%;height: 100%;
+}
+section ul li .rig a img{
+    width: 100%;
+}
+section ul li .mid .pp1{
+    margin-left: .4rem;
+    font-size: 14px;
+    color: #333;
+}
+section ul li .mid .pp2{
+    margin-left: .4rem;
+    font-size: 14px;
+    color: #666;
+    margin-top:.15rem;
+}

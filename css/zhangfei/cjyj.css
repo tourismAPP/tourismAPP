@@ -1,0 +1,182 @@
+html,body{
+    font-size: 16px;
+    height: 100%;
+}
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+body{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+header{
+    width:100%;
+    height:.88rem;
+    background: #3867FA;
+    overflow: hidden;
+     -webkit-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+header .ret{
+    display: block;
+    float: left;
+    width:.42rem;
+    height:.42rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-left: .24rem;
+    margin-top: .22rem;
+    background: url("../../images/zhangfei/ret.png") center center/100%;
+    box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+    -webkit-box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+}
+header .ret img{
+    width:100%;
+    height:100%;
+}
+header .title{
+    width:2.9rem;
+    height:.42rem;
+    margin:0 auto;
+    margin-top: .23rem;
+    text-align: center;
+    line-height:.42rem;
+    font-size: 19px;
+    color:#fff;
+    position: relative;
+}
+.title .dian{
+    position: absolute;
+    width:.55rem;
+    height:.1rem;
+    top:.16rem;
+}
+.title .dian li{
+    margin-right: .12rem;
+    background: #fff;
+    float: left;
+}
+.title .ld{
+    left:0;
+}
+.title .ld li{
+  border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+.title .ld li:nth-child(1){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .ld li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .ld li:nth-child(3){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+.title .rd{
+    right:-.12rem;
+}
+.title .rd li{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.title .rd li:nth-child(3){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .rd li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .rd li:nth-child(1){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+section{
+    width: 100%;
+    position: relative;
+     -webkit-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+}
+.bg{
+    width: 100%;height: auto;
+}
+.bg img{
+    width: 100%;
+}
+/*遮罩*/
+.zz{
+    width: 100%;height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: rgba(67,107,243,.9);
+    padding-top: .4rem;
+}
+.zz .gg{
+    width:5.35rem;
+    height:1.06rem;
+    margin:0 auto;
+    border-bottom: .015rem solid #7F9BF3;
+    line-height: 1.06rem;
+    font-size: 18px;
+    color: #fff;
+    margin-top: .5rem;
+    position: relative;
+    padding-left: .2rem;
+}
+.gg a{
+    display: block;
+    width: .5rem;height: .5rem;
+    position: absolute;
+}
+.gg a img{
+    width: 100%;
+}
+.tow a:nth-child(1){
+    right: 1.4rem;bottom:.46rem; 
+}
+.tow a:nth-child(2){
+    right: .7rem;bottom:.46rem; 
+}
+.tow a:nth-child(3){
+    right: 0;bottom:.46rem; 
+}
+.thr a{
+    position: absolute;
+    right: 0;bottom:.46rem;
+}
+.fou a{
+     position: absolute;
+     width: 1.16rem;height:.53rem; 
+     right: 0;bottom:.46rem;
+}
+.fiv{
+    width: 4.22rem;height: .98rem;
+    margin:1.3rem auto 0;
+    border:.01rem solid #fff;
+    border-radius: .98rem;
+    -webkit-border-radius: .98rem;
+    text-align: center;
+    line-height: .98rem;
+    color: #fff;
+    font-size: 16px;
+}
