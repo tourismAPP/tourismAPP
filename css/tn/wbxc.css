@@ -1,0 +1,81 @@
+/*$头部开始*/
+body{
+    font-size: 14px;
+    font-family: "苹方";
+}
+.head{
+    width: 100%;
+    height: 0.88rem;
+    background: #3c62f4;
+    line-height: 0.88rem;
+    position: relative;
+}
+.head h3{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+.head h3>img{
+    height: 50%;
+    margin-top: 0.2rem;
+}
+.head-right{
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0.25rem;
+    padding-top: 0.12rem;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.head-left{
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0.25rem;
+    box-sizing: border-box;
+    top: 0;
+    color:#fff;
+}
+.head-right img{
+    height: 50%;
+}
+/*$头部结束*/
+/*＄图片列表开始*/
+.tu-list-box{
+    width: 100%;
+    height: auto;
+    background: #3d64ea;
+}
+.tu-list{
+    width: 6.82rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tu-box{
+    width: 2.13rem;
+    height: 2.13rem;
+    margin: 0.07rem;
+    position: relative;
+}
+.tu-box>img{
+    width: 100%;
+}
+.tu-box>span{
+    display: block;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
+    background: url(../../images/tn/tn-bdg.png) no-repeat center center/cover;
+}
+.tu-box>#span{
+    background: url(../../images/tn/tn-dg.png) no-repeat center center/cover;
+}
+/*＄图片列表结束*/

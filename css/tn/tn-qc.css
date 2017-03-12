@@ -1,0 +1,204 @@
+body{
+	font-size: 16px;
+}
+/*头部开始*/
+*{
+    box-sizing:border-box;
+}
+.gzh-header{
+    width: 100%;
+    height: 0.88rem;
+    background: #3867FA;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0.2rem;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+.gzh-header-left.active{
+    width: 0.42rem;
+    height: 0.42rem;
+    border-radius: 50%;
+    box-shadow: 0 0.05rem 0.1rem 0.02rem #1D45C5;
+}
+.gzh-header .gzh-header-left>a{
+    display: flex;
+    align-items:center;
+}
+.gzh-header .gzh-header-left img{
+    width: 0.42rem;
+}
+.gzh-header .gzh-header-center.active{
+    margin-left: 1rem;
+}
+.gzh-header .gzh-header-center img{
+    width: 0.45rem;
+}
+.gzh-header .gzh-header-center>a{
+    display: flex;
+    align-items:center;
+}
+.gzh-header .gzh-header-center a>h1{
+    font-size: 18px;
+    padding:0 0.12rem;
+    color: #FFFFFF;
+}
+.gzh-header .gzh-header-center a>img{
+    margin-top: 0.12rem;
+    vertical-align: middle;
+}
+.gzh-header .gzh-header-right{
+    width: 0.42rem;
+    height: 0.42rem;
+    border-radius: 50%;
+    box-shadow: 0 0.05rem 0.1rem 0.02rem #1D45C5;
+}
+.gzh-header .gzh-header-right>a{
+    display: flex;
+    align-items:center;
+}
+.gzh-header .gzh-header-right>a>img{
+    width: 0.42rem;
+}
+/*头部结束*/
+.tn-content{
+	width: 100%;
+	height: auto;
+	padding-bottom: 1rem;
+}
+.tn-content .content-title{
+	width: 100%;
+	height: 0.82rem;
+	padding: 0 0.34rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+.tn-content .content-title .title-btn{
+	width: 2.2rem;
+	height: 0.82rem;
+	background: blue;
+	flex: 0 0 auto;
+	margin: 0 0.05rem;
+	line-height: 0.82rem;
+	overflow: hidden;
+}
+.tn-content .content-title .title-btn1{
+	background: url(../../images/tn/tn_03.png) no-repeat center center/cover;
+}
+.tn-content .content-title .title-btn2{
+	background: url(../../images/tn/tn_05.png) no-repeat center center/cover;
+}
+.tn-content .content-title .title-btn3{
+	background: url(../../images/tn/tn_07.png) no-repeat center center/cover;
+}
+.tn-content .content-title .title-btn a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.82rem;
+	font-size: 12px;
+	color: #151515;
+}
+.tn-content .content-title .title-btn2 input{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+	opacity: 0;
+}
+.tn-content .content-title .title-btn2 span{
+	font-size: 12px;
+	color: #3867fa;
+}
+.tn-content .content-box{
+	width: 100%;
+	height: auto; 
+	box-sizing: border-box;
+	padding: 0 0.32rem;
+	overflow: hidden;
+}
+.tn-content .content-box>li{
+	width: 100%;
+	height: 2.61rem;
+	background: url(../../images/tn/tn_10.png) no-repeat center center/cover;
+}
+.tn-content .content-box>li .content-left{
+	width: 2.15rem;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+	position: relative;
+}
+.tn-content .content-box>li .content-left p{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	height: 50%;
+}
+.tn-content .content-box>li .content-left p:first-child{
+	padding-top: 0.8rem;
+	box-sizing: border-box;
+}
+.tn-content .content-box>li .content-right{
+	width: 4.7rem;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.tn-content .content-box>li .content-right td{
+	text-align: center;
+	line-height: 0.55rem;
+	font-size: 14px;
+	width: 2.35rem;
+}
+.tn-content .content-box>li .content-right tr:nth-child(1)>td{
+	font-weight: bold;
+	color: #1c1c1c;
+}
+.tn-content .content-box>li .content-right tr:nth-child(2)>td{
+	color: #1c1c1c;
+}
+.tn-content .content-box>li .content-right tr:nth-child(3)>td{
+	color: #dbdbdb;
+}
+.tn-content .content-box>li .content-right tr:nth-child(4)>td:nth-child(1){
+	color: #1c1c1c;
+}
+.tn-content .content-box>li .content-right tr:nth-child(4)>td:nth-child(2){
+	color: #ff1f45;
+	font-weight: bold;
+}
+
+/*底部开始*/
+footer{
+    width:100%;
+    height: 1rem;
+    background: #003EFF;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index:99998;
+    display: flex;
+    justify-content: space-around;
+}
+footer a img{
+    width:0.61rem;
+    height:0.86rem;
+}
+/*底部结束*/
+
+
+
+
+
+
+
+
