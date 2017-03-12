@@ -1,0 +1,209 @@
+html,body{
+    height: 100%;
+    font-size: .24rem;
+    font-family:Microsoft YaHei;
+}
+
+.header{
+    width: 100%;
+    height: .8rem;
+    background: #ccc;
+}
+.header{
+    width: 100%;
+    height: .8rem;
+    background: #ccc;
+}
+header{
+    width:100%;
+    height:.88rem;
+    background: #3867FA;
+    overflow: hidden;
+}
+header .title{
+    width:2.9rem;
+    height:.42rem;
+    margin:0 auto;
+    margin-top: .23rem;
+    text-align: center;
+    line-height:.42rem;
+    font-size: 19px;
+    color:#fff;
+    position: relative;
+}
+.title .dian{
+    position: absolute;
+    width:.55rem;
+    height:.1rem;
+    top:.16rem;
+}
+.title .dian li{
+    margin-right: .12rem;
+    background: #fff;
+    float: left;
+}
+.title .ld{
+    left:0;
+}
+.title .ld li{
+    border-radius: 50%;
+}
+.title .ld li:nth-child(1){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .ld li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .ld li:nth-child(3){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+.title .rd{
+    right:-.12rem;
+}
+.title .rd li{
+    border-radius: 50%;
+}
+.title .rd li:nth-child(3){
+    width:.03rem;
+    height:.03rem;
+    margin-top: .03rem;
+}
+.title .rd li:nth-child(2){
+    width:.05rem;
+    height:.05rem;
+    margin-top: .02rem;
+}
+.title .rd li:nth-child(1){
+    width:.07rem;
+    height:.07rem;
+    margin-top: .015rem;
+}
+header .sz{
+    position: absolute;
+    right:.24rem;
+    top: .22rem;
+    width:.42rem;
+    height:.42rem;
+    border-radius:50%;
+    background: url("../../images/zz/bg02.png") center center/100%;
+    box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+}
+header .sz img{
+    width: 100%;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height:3.58rem;
+    background: url("../../images/zz/3_03.png")no-repeat center center/cover;
+    position: relative;
+}
+.tou{
+    width: 1.14rem;
+    height: 1.14rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("../../images/zz/title_03.jpg") no-repeat center center/cover;
+    z-index: 999;
+}
+.zz{
+    width: 100%;
+    height:100%;
+    background: #000;
+    opacity: .4;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.text1{
+    color: #fff;
+    font-size:.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom:50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text2{
+    color: #fff;
+    font-size:.2rem;
+    position: absolute;
+    text-align: center;
+    bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner img:nth-child(5){
+    width: .55rem;
+    position: absolute;
+    top:50%;
+    right: 20%;
+    transform: translateY(-100%);
+}
+.banner img:nth-child(6){
+    width: .55rem;
+    position: absolute;
+    top:50%;
+    left: 20%;
+    transform: translateY(-100%);
+}
+/*banner结束*/
+/*content*/
+.content{
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.title{
+    width: 100%;
+    height:1.03rem;
+    text-align: center;
+    line-height: 1.03rem;
+}
+.item{
+    display: block;
+    width: 100%;
+    height: 3.13rem;
+    margin-bottom: 10px;
+    position: relative;
+}
+.item p{
+    color: #fff;
+    font-size: .26rem;
+    padding: 5px 5px;
+}
+.item img{
+    width: .26rem;
+    margin-right: 5px;
+}
+.url1{
+    background: url("../../images/zz/bank_03.png")no-repeat center center/cover;
+}
+.url2{
+    background: url("../../images/zz/bank2_03.png")no-repeat center center/cover;
+}
+.url3{
+    background: url("../../images/zz/bank4_03.png")no-repeat center center/cover;
+}
+.icon-bottom{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.icon-bottom span{
+    color: #fff;
+    font-weight: 100;
+}

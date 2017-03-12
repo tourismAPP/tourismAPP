@@ -1,0 +1,157 @@
+html,body{
+    height: 100%;
+    font-size: .24rem;
+    font-family:Microsoft YaHei;
+    font-size: .24rem;
+}
+/*toubu*/
+
+.header{
+    width: 100%;
+    height: .8rem;
+    background:  #3867FA;
+    display: flex;
+}
+.btn{
+    flex-grow:1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.btn img{
+    width: .45rem;
+}
+.ty img{
+    width: .45rem;
+    margin-right: 10px;
+}
+.text-box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.text-box input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 4rem;
+    height:.43rem;
+    border-radius: 10px;
+}
+.ty{
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+}
+/*内容*/
+.warp{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.item{
+    width: 100%;
+    height:4.92rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 2px #ccc;
+}
+.title{
+    font-size: .38rem;
+}
+.xing{
+    float: right;
+    width: 1.5rem;
+    height:.5rem;
+}
+.xing img{
+    width: 100%;
+}
+.dinwei{
+    color: #ccc;
+}
+.dinwei img{
+    width: .3rem;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.item p{
+    color: red;
+}
+.img{
+    width: 100%;
+    height:2.32rem;
+}
+
+/*.img div{*/
+    /*padding: 5px;*/
+    /*flex-grow: 1;*/
+    /*height: 100%;*/
+    /*border-radius: 10px;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*轮播*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 60%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-wrapper .imgs{
+    width:3rem;
+    height: 2.32rem;
+
+}
+.swiper-wrapper .imgs img{
+    width: 100%;
+}
+/*留言浏览数量*/
+.gn{
+    width: 100%;
+
+}
+.gn:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.inner img{
+    width: .44rem;
+    margin-right: 5px;
+}

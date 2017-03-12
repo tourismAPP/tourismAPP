@@ -1,0 +1,211 @@
+html,body{
+    height: 100%;
+    font-size: .24rem;
+    font-family:Microsoft YaHei;
+}
+
+/*toubu*/
+
+header{
+    position: fixed;
+    left:0;top:0;
+    height:0.8rem;
+    width:100%;
+    background:#3867FA;
+    padding:0 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size:14px;
+    color:#FFFFFF;
+    z-index: 1111;
+    box-sizing: border-box;
+}
+header .left-box,header .right-box{
+    height:0.42rem;
+    display: flex;
+    line-height:0.42rem;
+}
+header .left-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+    overflow: hidden;
+    background:url(../../images/zz/ret.png) no-repeat center center/100% 100%;
+}
+header .left-box .span{
+    height:100%;
+    line-height:0.5rem;
+    margin-left: 5px;
+}
+header .cont{
+    height:0.42rem;
+    width:2rem;
+    text-align: center;
+    background:url(../../images/jst/point.png) no-repeat center center/100%;
+    text-shadow:0 0.02rem 0.05rem #666;
+    font-weight:600;
+    line-height:0.42rem;
+}
+.right-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+}
+/*标题行*/
+.title-box{
+    height:0.8rem;
+    width:100%;
+    padding:0.24rem 0.32rem;
+    position: relative;
+}
+.title-box h6{
+    font-size:14px;
+}
+.title-box .dd-box{
+    width:0.42rem;
+    height:0.05rem;
+    position:absolute;
+    left:2rem;bottom:0.24rem;
+}
+.title-box .dd-box .dd-one{
+    display: block;
+    height:100%;width:0.33rem;
+    background:#C8E5F5;
+    border-radius:0.05rem;
+}
+.title-box .dd-box .dd-two{
+    display: block;
+    height:100%;width:0.05rem;
+    background:#C8E5F5;
+    border-radius:50%;
+}
+/*头部结束*/
+/*banner*/
+.banner{
+    width: 100%;
+    height:3.58rem;
+    background: url("../../images/zz/3_03.png")no-repeat center center/cover;
+    position: relative;
+}
+.tou{
+    width: 1.14rem;
+    height: 1.14rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("../../images/zz/title_03.jpg") no-repeat center center/cover;
+    z-index: 999;
+
+}
+.zz{
+    width: 100%;
+    height:100%;
+    background: #000;
+    opacity: .4;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.text1{
+    color: #fff;
+    font-size:.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom:50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text2{
+    color: #fff;
+    font-size:.2rem;
+    position: absolute;
+    text-align: center;
+    bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.content{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+}
+.content a{
+    width: 2.5rem;
+    height:2.5rem;
+    display: flex;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.content p{
+    font-size: .28rem;
+    margin-top: 5px;
+    color: #000;
+}
+.content img{
+    width: .56rem;
+}
+.content a:nth-child(2){
+     border-left:1px solid #ccc ;
+     border-right:1px solid #ccc ;
+     box-sizing: border-box;
+ }
+.content a:nth-child(5){
+    border-left:1px solid #ccc ;
+    border-right:1px solid #ccc ;
+    box-sizing: border-box;
+}
+.content a:nth-child(8){
+    border-left:1px solid #ccc ;
+    border-right:1px solid #ccc ;
+    box-sizing: border-box;
+}
+/*底部导航栏*/
+.foot {
+    width: 100%;
+    height: .98rem;
+    background: #003EFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+}
+.foot ul {
+    width: 100%;
+    height: .98rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot ul li {
+    width: 100%;
+    height: 100%;
+}
+.foot ul li a {
+    color: #fff;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot ul li a img {
+    width: .61rem;
+    height: .65rem;
+}

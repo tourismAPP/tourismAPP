@@ -1,0 +1,163 @@
+html,body{
+    height: 100%;
+    font-size: .24rem;
+    font-family:Microsoft YaHei;
+}
+.header{
+    width: 100%;
+    height:5.05rem;
+    position: relative;
+}
+.lfet{
+    width: 3.5rem;
+    height:4.2rem;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: url("../../images/zz/x2_03.png")no-repeat center center/cover;
+}
+.right{
+    width: 6.3rem;
+    height:5.05rem;
+    position: absolute;
+    right: 0;
+    top:0;
+    background: url("../../images/zz/x1_03.png")no-repeat center center/cover;
+}
+.center{
+    width:3.03rem;
+    height:3.39rem;
+    background: url("../../images/zz/16_03.png")no-repeat center center /cover;
+    position: absolute;
+    left: 50%;
+    top:65%;
+    transform: translate3D(-50%,-50%,0);
+}
+.title{
+    width: 1.5rem;
+    height:1.5rem;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate3D(-50%,-63%,0);
+    border-radius: 50%;
+    background: url("../../images/zz/title_03.jpg")no-repeat center center/cover;
+}
+.text{
+    width: 1.7rem;
+    height:1.1rem;
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    color: #fff;
+}
+.text p:nth-child(1){
+    font-size: .3rem;
+}
+.xian{
+    width: 100%;
+    height: .02rem;
+    background: #fff;
+    margin: 0 auto;
+}
+.text p:nth-child(3){
+    font-size: .23rem;
+    font-weight: 100;
+
+}
+
+/*中线*/
+.middle{
+    width: 2px;
+    height: 8.4rem;
+    background: #d7f5f7;
+    margin: 0 auto;
+    position: relative;
+}
+.dian{
+    width: .07rem;
+    height:.07rem;
+    background: #fff;
+    border-radius: 50%;
+    border: .04rem solid #3c6bff;
+    position: absolute;
+    top:20%;
+    left: -80%;
+}
+.dian1{
+    top:10%;
+    position: relative;
+}
+.dian2{
+    top:40%;
+}
+.dian3{
+    top:70%;
+}
+/*内容*/
+.content{
+    width: 3.13rem;
+    height:2.55rem;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    background: url("../../images/zz/16_07.png")no-repeat center center/cover;
+}
+.content2{
+    width: 3.13rem;
+    height:2.55rem;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background: url("../../images/zz/16_10.png")no-repeat center center/cover;
+}
+.content3{
+    width: 3.13rem;
+    height:2.55rem;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    background: url("../../images/zz/16_13.png")no-repeat center center/cover;
+}
+.content2 span:nth-child(1){
+    display: block;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #fff;
+}
+.content2 span:nth-child(2){
+    display: block;
+    margin-top: 10px;
+    width: 2.8rem;
+    height: 1.3rem;
+    color: #444;
+    margin-left: 20px;
+}
+
+.content span:nth-child(1){
+    display: block;
+    margin-top: 5px;
+    margin-left:10px;
+    color: #fff;
+}
+.content span:nth-child(2){
+    display: block;
+    margin-top: 15px;
+    width: 2.8rem;
+    height: 1.3rem;
+    color: #444;
+}
+
+.content3 span:nth-child(1){
+    display: block;
+    margin-top: 5px;
+    margin-left:10px;
+    color: #fff;
+}
+.content3 span:nth-child(2){
+    display: block;
+    margin-top: 15px;
+    width: 2.8rem;
+    height: 1.3rem;
+    color: #444;
+}
