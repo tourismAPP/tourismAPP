@@ -139,7 +139,8 @@ section{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     left: .47rem;bottom:.8rem;
-    background-image: linear-gradient(90deg, red, blue)
+    background-image: linear-gradient(90deg, red, blue);
+    -webkit-background-image: linear-gradient(90deg, red, blue);
 }
 .ban .bt{
     position: absolute;
@@ -220,13 +221,22 @@ footer .ft li{
     float: left;
 }
 footer ul .one a{
-    display:flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;height: 100%;
     background: blue;
     color: #fff;
-    align-items:center;
-    justify-content:center;
-    font-size: 14px;   
+    font-size: 14px; 
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 footer ul .one a span{
     margin-left: .15rem;

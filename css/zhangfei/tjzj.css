@@ -4,6 +4,7 @@ body{
 }
 *{
     box-sizing:border-box;
+    -webkit-box-sizing:border-box;
 }
 header{
     width:100%;
@@ -17,10 +18,12 @@ header .ret{
     width:.42rem;
     height:.42rem;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
     margin-left: .24rem;
     margin-top: .22rem;
     background: url("../../images/zhangfei/ret.png") center center/100%;
     box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+    -webkit-box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
 }
 header .ret img{
     width:100%;
@@ -53,6 +56,7 @@ header .title{
 }
 .title .ld li{
   border-radius: 50%;
+  -webkit-border-radius: 50%;
 }
 .title .ld li:nth-child(1){
     width:.03rem;
@@ -74,6 +78,7 @@ header .title{
 }
 .title .rd li{
     border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 .title .rd li:nth-child(3){
     width:.03rem;
@@ -97,8 +102,10 @@ header .sz{
     width:.42rem;
     height:.42rem;
     border-radius:50%;
+    -webkit-border-radius:50%;
     background: url("../../images/zhangfei/tj01.png") center center/100%;
     box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
+    -webkit-box-shadow: .0rem .05rem .05rem rgba(0,0,0,.5);
 }
 header .sz img{
     width: 100%;
@@ -111,6 +118,7 @@ section{
 .one{
     width: 100%;height: 2.55rem;
     border-radius: .08rem;
+    -webkit-border-radius: .08rem;
     margin-top: .2rem;
     background: #fff;
     overflow: hidden;
@@ -171,6 +179,7 @@ section{
 .tow{
     width: 100%;height: .76rem;
     border-radius: .08rem;
+    -webkit-border-radius: .08rem;
     background: #fff;
     line-height: .76rem;
     margin-top: .2rem;
@@ -193,6 +202,7 @@ section{
     margin-top: .2rem;
     width: 100%;
     box-shadow: 0 0 .3rem rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0 0 .3rem rgba(0,0,0,0.7);
 }
 .thre img{
     width: 100%;

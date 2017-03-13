@@ -37,9 +37,18 @@ html,body{
 }
 .main .top .left{
 	float: left;
-	display: flex;
-	align-items:center;
-	justify-content:center;
+	 display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	 -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	 -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .main .top .left i{
 	display: inline-block;
@@ -55,33 +64,71 @@ html,body{
 }
 .mids{
 	width: 100%;height: .78rem;
-	display: flex;
-
+	 display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 .mids div{
-	flex:auto;
-	display: flex;
-	align-items:center;
-	justify-content:center;
+	 -webkit-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	 -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	 -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .dat{
 	width: 100%;height: 3.15rem;
-	display: flex;
-	flex-flow:wrap row;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	-webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
 }
 .dat .lie{
 	width: 100%;
 	height: 20%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     border-bottom: .01rem dashed #E8E8E8;
    
 }
 .dat li{
 	width: 100%;height:100%;
-	flex-grow:auto;
-	display: flex;
-	justify-content:center;
-	 align-items:center;	
+	 -webkit-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	 -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	 -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 /*底部定位*/
 .ddd{
@@ -110,4 +157,30 @@ html,body{
 .shang span:first-child{
 	font-size: 14px;
 	font-weight: 700;
+}
+/*蓝色背景*/
+.blues{
+	width:.5rem;
+	height:.5rem;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	background:blue;
+	color:#fff;
+	text-align:center;
+	line-height:.5rem;
+	font-size:10px;
+}
+/*红色背景*/
+.reds{
+	position:absolute;
+	width:.3rem;
+	height:.3rem;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	background:red;
+	color:#fff;
+	text-align:center;
+	line-height:.3rem;
+	bottom:0rem;right:0;
+	font-size:10px;
 }
