@@ -1,0 +1,154 @@
+html,body{
+    width:7.5rem;
+    height:100%;
+    position: relative;
+}
+.bj{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    background: url(../../images/cmj/bj.jpg)no-repeat center center/cover;
+}
+.an{
+    width:100%;
+    height:0.34rem;
+    position: absolute;
+    z-index:2;
+    top:0.76rem;
+}
+.an a{
+    display: block;
+    width:0.34rem;
+    height:0.34rem;
+    margin-left:0.24rem;
+    background: url(../../images/cmj/an.png) no-repeat center center/cover;
+}
+.logo-x{
+    width:100%;
+    height:auto;
+    position: absolute;
+    z-index: 3;
+    top:1.1rem;
+}
+.logo{
+    width:100%;
+    height:1.7rem;
+}
+.logo-z{
+    width:1.7rem;
+    height:1.7rem;
+    margin:0 auto;
+    background: url(../../images/cmj/logo.png) no-repeat center center/cover;
+}
+.zc{
+    width:100%;
+    margin-top:2.36rem;
+    height:5.8rem;
+}
+.zc-z{
+    width:4.74rem;
+    height:5.8rem;
+    margin:0 auto;
+}
+.sr-1{
+    width:100%;
+    height:0.92rem;
+    background: #ffffff;
+    border-radius: 30px;
+}
+.sr-1-1{
+    width:4.08rem;
+    height:0.26rem;
+    margin:0 auto;
+    padding-top:0.33rem;
+}
+.x{
+    width:0.32rem;
+    height:0.26rem;
+    float: left;
+    background: url(../../images/cmj/x.png) no-repeat center center/cover;
+}
+.h{
+    width:0.32rem;
+    height:0.26rem;
+    float: left;
+    background: url(../../images/cmj/suo.png) no-repeat center center/cover;
+}
+.dui{
+    width:0.26rem;
+    height:0.26rem;
+    float: right;
+    background: url(../../images/cmj/dui.png) no-repeat center center/cover;
+}
+.input{
+    width:3.44rem;
+    height:0.26rem;
+    float: left;
+}
+.input input{
+    width:3.44rem;
+    height:0.26rem;
+    font-size: 0.24rem;
+    margin-left: 0.3rem;
+    float: left;
+    border:none;
+}
+.er{
+    margin-top:0.46rem;
+}
+.ty{
+    width:3.44rem;
+    height:1rem;
+}
+.yuan{
+    width:4.54rem;
+    height:0.24rem;
+    margin-top:0.34rem;
+}
+.yuan input{
+    width:0.24rem;
+    height:0.24rem;
+    float: left;
+    margin-left:0.24rem;
+}
+.yuan .p1{
+    display: block;
+    width:auto;
+    height:0.24rem;
+    line-height:0.24rem;
+    padding-left:0.18rem;
+    float: left;
+    font-size:0.24rem;
+    color: #fff;
+}
+.yuan .p2{
+    display: block;
+    width:auto;
+    height:0.24rem;
+    line-height:0.24rem;
+    padding-left:1.3rem;
+    float: left;
+    font-size:0.24rem;
+    color: #fff;
+}
+.zc-h{
+    text-align: center;
+    line-height:0.92rem;
+    color: #fff;
+    background: yellow;
+    font-size:0.3rem;
+    font-weight: bold;
+}
+.baocuo{
+    width:2.66rem;
+    height:0.4rem;
+    margin:0 auto;
+    margin-top:1.64rem;
+    border-radius: 30px;
+    border:2px solid #ccc;
+    box-sizing:border-box;
+}
+.aa{
+    margin-top:0;
+}

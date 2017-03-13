@@ -1,0 +1,186 @@
+html,body{
+    width:7.5rem;
+    height:100%;
+    position: relative;
+}
+.bj{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    background: url(../../images/cmj/bj.jpg)no-repeat center center/cover;
+}
+.title{
+    width:100%;
+    height:0.52rem;
+    line-height: 0.52rem;
+    text-align:center ;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    font-size:0.4rem;
+    top:1.52rem;
+}
+.logo{
+    width:100%;
+    height:1.7rem;
+    position: absolute;
+    margin-top:2.2rem;
+    z-index:3;
+}
+.logo-1{
+    width:1.7rem;
+    height:auto;
+    border-radius: 50%;
+    margin:0 auto;
+    padding-top:1.44rem;
+}
+.logo-1 img{
+    width:100%;
+    height:100%;
+}
+/*登陆*/
+.dl{
+    width:100%;
+    height:0.97rem;
+    margin-top:3.22rem;
+}
+.dl-1{
+    width:5.7rem;
+    height:0.97rem;
+    margin:0 auto;
+}
+.dl-left{
+    width:2.58rem;
+    height:0.97rem;
+    float: left;
+    line-height:0.97rem;
+    position: relative;
+}
+.dl-left img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index:1;
+    left:0;
+    top:0;
+}
+.dl-left a{
+    display: block;
+    position: absolute;
+    z-index:2;
+    width:2.58rem;
+    height:0.97rem;
+    left:0;
+    top:0;
+    text-align: center;
+    line-height:0.97rem;
+    font-size:0.3rem;
+    color:#8690FA;
+    font-weight: bold;
+}
+.dl-right{
+    width:2.58rem;
+    height:0.97rem;
+    float: right;
+    line-height:0.97rem;
+    position: relative;
+}
+.dl-right img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index:1;
+    right:0;
+    top:0;
+}
+.dl-right a{
+    display: block;
+    position: absolute;
+    z-index:2;
+    width:2.58rem;
+    height:0.97rem;
+    left:0;
+    top:0;
+    text-align: center;
+    line-height:0.97rem;
+    font-size:0.3rem;
+    color:#8690FA;
+    font-weight: bold;
+}
+/*账号*/
+.zh{
+    width:100%;
+    height:0.75rem;
+}
+.zh-z{
+    width:4rem;
+    height:0.76rem;
+    margin:0 auto;
+    margin-top:0.64rem;
+}
+.dian-left{
+    width:0.52rem;
+    height:0.76rem;
+    float: left;
+    background: url(../images/cmj/dian.png) no-repeat center center/cover;
+}
+.content{
+    width:2.9rem;
+    height:0.76rem;
+    float: left;
+}
+.content-z{
+    width: 2.55rem;
+    height:0.76rem;
+    margin: 0 auto;
+    border:1px solid #ccc;
+    border-radius:20px;
+    text-align: center;
+    line-height: 0.76rem;
+    font-size:0.24rem;
+    color: #6682FB;
+    box-sizing:border-box;
+}
+.dian-right{
+    width:0.52rem;
+    height:0.76rem;
+    float: left;
+    background: url(../../images/cmj/dian2.png) no-repeat center center/cover;
+}
+/*图标*/
+.tu{
+    width:100%;
+    height:0.51rem;
+    margin-top:0.46rem;
+}
+.tu-z{
+    width:2.54rem;
+    height:0.51rem;
+    margin:0 auto;
+}
+.tu1{
+    width:0.51rem;
+    height:0.51rem;
+    float: left;
+    background: url(../../images/cmj/tu1.png) no-repeat center center/cover;
+}
+.zhong{
+    width:1.52rem;
+    height:0.51rem;
+    float: left;
+}
+.tu2{
+    display: block;
+    width:0.51rem;
+    height:0.51rem;
+    margin: 0 auto;
+    background: url(../../images/cmj/tu2.png) no-repeat center center/cover;
+
+}
+.tu3{
+    width:0.51rem;
+    height:0.51rem;
+    float: left;
+    background: url(../../images/cmj/tu3.png) no-repeat center center/cover;
+}
