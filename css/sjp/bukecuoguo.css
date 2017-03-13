@@ -1,0 +1,35 @@
+.cuoguo{
+	height:0.93rem;
+background: red;
+}
+.cuoguo span{
+	font-size: 25px;
+	color: #333333;
+	text-align: center;
+	font-weight: bold;
+	margin-left:1.28rem;
+}
+
+.span{
+	height: 1.12rem;
+	background: red;
+	width: 6.51rem;
+	margin: 0 auto;
+}
+
+.qiao{
+	width: 7.5rem;
+	height: 2.24rem;
+}
+.min-qiao{
+	width: 6.51rem;
+	height: 3.03rem;
+	margin:0 auto;
+}
+.min-qiao a{
+	display: block;
+}
+.min-qiao img{
+	width: 6.51rem;
+	height: 3.03rem;
+}

@@ -1,0 +1,161 @@
+.header{
+	width: 7.5rem;
+	height: 0.88rem;
+	background: #3867FA;
+}
+.min-width{
+	width: 7.06rem;
+	height: 0.88rem;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.houtui{
+	width: 1.47rem;
+	height: 0.88rem;
+	float: left;
+}
+.houtui a img{
+	width: 0.44rem;
+	height: 0.44rem;
+	margin-top:0.22rem;
+	float: left;
+}
+.s-box{
+	width: 4.1rem;
+	height: 0.43rem;
+	float: left;
+	background: #4F79FA;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	border-radius: 30px;
+	margin-top: 0.25rem;
+	position: relative;
+}
+.sea{
+	width: 0.28rem;
+	height: 0.28rem;
+	position: absolute;
+	left: 0.15rem;
+	top: 0.08rem;
+}
+.sou{
+	width: 3.25rem;
+	height: 0.3rem;
+	float: left;
+	position: absolute;
+	left: 0.5rem;
+	/*opacity: 0.1;
+	filter:alpha(opacity=10);*/
+	background: #5179FA;
+	border: 0;
+}
+.sea img{
+	display: block;
+	width: 0.28rem;
+}
+.feng{
+	width: 0.25rem;
+	height: 0.3rem;
+	float: right;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.feng img{
+	display: block;
+	width: 0.17rem;
+}
+.quxiao{
+	float: right;
+	height: 100%;
+	line-height: 0.82rem;
+}
+.quxiao a{
+	display: block;
+	height: 100%;
+	line-height: 100%;
+	font-size: 16px;
+	color: #fff;
+	line-height: 0.82rem;
+}
+
+/*热门目的地*/
+.remen{
+	height: 1.53rem;
+
+}
+.remen span{
+	font-size: 25px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 1.53rem;
+	margin-left: 1.74rem;
+}
+/*地点*/
+.did{
+	width: 6.25rem;
+	height: 0.62rem;
+	margin: 0 auto;
+	margin-bottom: 0.42rem;
+}
+.shi{
+	width: 1.8rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background: url(../images/bg.png) no-repeat center center;
+	float: left;
+	margin-right: 0.42rem;
+	position: relative;
+}
+.shi h2{
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	left: 0.65rem;
+	top: 0.18rem;
+} 
+.shi1{
+	margin-right: 0;
+}
+.mash{
+	width: 1.8rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background: linear-gradient(to right,#7376FF 0%, #538CFF 100%);
+	position: absolute;
+	left: 0;top: 0;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+}
+.mm{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0.13rem;
+	top: 0.26rem;
+	background: #fff;
+}
+.mm1{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 1.63rem;
+	top: 0.26rem;
+	background: #fff;
+}
+.ss2 .mash{
+	background: linear-gradient(to right,#4960FF 0%, #5B96FF 100%);
+}
+.ss3 .mash{
+	background: linear-gradient(to right,#6A5CE6 0%, #D364B2 100%);
+}
+.jin{
+	width: 4.27rem;
+	height: 0.6rem;
+	margin: 0 auto;
+	margin-bottom: 0.42rem;
+}
+.jin .shi{
+	float: left;
+}

@@ -1,0 +1,114 @@
+.place{
+	height: 0.8rem;
+	/*background: yellow;*/
+}
+.place span{
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 0.8rem;
+	margin-left: 0.34rem;
+}
+.placee{
+	height: 0.4rem;
+	/*background: yellow;*/
+}
+.city1{
+	height: 1.94rem;
+	/*background: red;*/
+}
+.min-city{
+	width: 6.87rem;
+	height: 1.94rem;
+	/*background: green;*/
+	margin: 0 auto;
+}
+.min-city1 img{
+	width: 2.11rem;
+	height: 1.93rem;
+}
+.min-city2 img{
+	width: 2.11rem;
+	height: 1.93rem;
+}
+.min-city3 img{
+	width: 2.11rem;
+	height: 1.93rem;
+	float: right;
+
+}
+.city{
+	height: 0.23rem;
+	background: #fff;
+}
+/*游记 故事集*/
+.story{
+	height: 0.83rem;
+	/*background: yellow;*/
+}
+.story a span{
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 0.83rem;
+	margin-left: 0.34rem;
+}
+.qiao{
+	width: 7.5rem;
+	height: 2.24rem;
+}
+.min-qiao{
+	width: 6.87rem;
+	height: 2.24rem;
+	margin:0 auto;
+}
+.min-qiao a{
+	display: block;
+}
+.min-qiao img{
+	width: 6.87rem;
+	height: 2.24rem;
+}
+/*相关用户*/
+.juxing{
+	width: 6.87rem;
+	height: 0.77rem;
+	margin: 0 auto;
+	border:2px solid #F0F0F0;
+	border-radius: 0.05rem;
+}
+.tx{
+	width: 0.51rem;
+	float: left;
+}
+.tx img{
+	width: 0.51rem;
+	/*height: 0.54rem;*/
+	vertical-align: middle;
+	margin-top: -0.5rem;
+	margin-left: 0.13rem;
+}
+.cydate{
+	width: 4.32rem;
+	float: left;
+	height:0.77rem!important;
+	margin-left:0.53rem;
+
+}
+.cy{
+	display: block;
+	font-size: 18px;
+	color: #333333;
+	height: 0.25rem;
+	margin-top: 0.1rem;
+}
+.date{
+	display: block;
+	font-size: 16px;
+	color: #858585;
+	margin-top: 0.1rem;
+
+}
+
+
+
