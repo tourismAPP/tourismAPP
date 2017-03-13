@@ -166,4 +166,15 @@ html,body{
     height:2.82rem;
     margin:0 auto;
     background: url(../../images/cmj/aa1.png)no-repeat center center/cover;
+    position: relative;
+}
+.add a{
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    left: 1.7rem;
+    top: 0.16rem;
+    position: absolute;
+    border-radius: 50%;
+    background: url(../../images/cmj/d.png)no-repeat center center/cover;
 }

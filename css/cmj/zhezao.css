@@ -144,4 +144,15 @@ html,body{
     height:2.82rem;
     margin:0 auto;
     background: url(../../images/cmj/ts.png)no-repeat center center/cover;
+    position: relative;
+}
+.ts-1 a{
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    left: 1.7rem;
+    top: 0.16rem;
+    position: absolute;
+    border-radius: 50%;
+    background: url(../../images/cmj/tanhao.png)no-repeat center center/cover;
 }
