@@ -1,3 +1,55 @@
+body{
+	display: flex;
+	flex-direction:column;
+}
+header{
+    /*position: fixed;*/
+    /*left:0;top:0;*/
+    height:0.8rem;
+    width:100%;
+    background:#3867FA;
+    padding:0 0.32rem;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    align-items:center;
+    font-size:14px;
+    color:#FFFFFF;
+    z-index: 1111;
+    box-sizing: border-box;
+}
+header .left-box,header .right-box{
+    height:0.42rem;
+    display: flex;
+    line-height:0.42rem;
+}
+header .left-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+    overflow: hidden;
+    background:url(../../images/sjp/prent.jpg) no-repeat center center/100% 100%;
+}
+header .left-box .span{
+    height:100%;
+    line-height:0.5rem;
+    margin-left: 5px;
+}
+header .cont{
+    height:0.42rem;
+    width:2rem;
+    text-align: center;
+    background:url(../../images/sjp/point.png) no-repeat center center/100%;
+    text-shadow:0 0.02rem 0.05rem #666;
+    font-weight:600;
+    line-height:0.42rem;
+}
+.right-box .one{
+    height:100%;
+    width:0.42rem;
+    border-radius:50%;
+}
 .blue{
 	width: 100%;
 	height: 0.92rem;
@@ -50,6 +102,11 @@
 	color:#FFFFFF;
 	text-align: center;
 }
+.stu{
+	width: 100%;
+	height: 0.92rem;
+	background: #F5F5F5;
+}
 .cf{
 	width: 33.333%;
 	height: 0.92rem;
@@ -72,11 +129,17 @@
 	text-align: center;
 }
 .cf a{
+	display: block;
+	text-align: center;
+	line-height: 0.92rem;
 	font-size: 13px;
 	color:#333;
 	font-weight: bold;
 }
 .dd a{
+	display: block;
+	text-align: center;
+	line-height: 0.92rem;
 	font-size: 13px;
 	color:#333;
 	font-weight: bold;
@@ -89,6 +152,9 @@
 	text-align: center;
 }
 .bj a{
+	display: block;
+	text-align: center;
+	line-height: 0.92rem;
 	font-size: 13px;
 	color:#333;
 }
@@ -98,6 +164,13 @@
 	float: left;
 	background: #FFFFFF;
 }
+.fjimg{
+	width: 33.333%;
+	height: 0.92rem;
+	display: block;
+	vertical-align: middle;
+	margin-left: 0.84rem;
+}
 .sh{
 	width: 33.333%;
 	height: 0.92rem;
@@ -106,6 +179,9 @@
 	text-align: center;
 }
 .sh a{
+	display: block;
+	text-align: center;
+	line-height: 0.92rem;
 	font-size: 13px;
 	color:#333;
 }
@@ -118,7 +194,7 @@
 /*block*/
 .block{
 	width: 100%;
-	height: 5.5rem;
+	height: 4.5rem;
 	/*background: red;*/
 }
 /*dibu*/
