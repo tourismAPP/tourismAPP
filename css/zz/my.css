@@ -176,36 +176,46 @@ header .cont{
 }
 /*底部导航栏*/
 .foot {
-    width: 100%;
-    height: .98rem;
-    background: #003EFF;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 999999;
+  width: 100%;
+  height: .98rem;
+  background: #003EFF;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
 }
 .foot ul {
-    width: 100%;
-    height: .98rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  height: .98rem;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-pack:justify;
+  align-items: center;
+  -webkit-box-align:center;
 }
 .foot ul li {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .foot ul li a {
-    color: #fff;
-    font-size: 10px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  color: #fff;
+  font-size: 10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-display:-webkit-box;
+  flex-direction: column;
+  -webkit-box-orient:vertical;
+  justify-content: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+}
+.foot ul li:nth-of-type(5) a{
+  color:#2C3450;
 }
 .foot ul li a img {
-    width: .61rem;
-    height: .65rem;
+  width: .4rem;
+  height: .45rem;
 }
