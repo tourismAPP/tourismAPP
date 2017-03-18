@@ -289,13 +289,14 @@
 }
 .qbtu h4{
     font-size: 14px;
-    color: #363636;
     text-align: center;
     line-height: 0.65rem;
     position: absolute;
     left: 0.65rem;top: 0.06rem;
 } 
-
+.qbtu h4 a{
+    color: #363636;  
+}
 
 
 /*不可错过   */
@@ -323,7 +324,7 @@
 
 }
 .cuo{
-    width: 4.2rem;
+    width: 4.7rem;
     height: 0.3rem;
     margin: 0 auto;
 }
